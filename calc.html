@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator using func</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div  class="main">
+        <h1>Caculator</h1>
+
+    </div>
+    <div class="container">
+        <div class="demo">
+            <input type="text" name="values" id="inp">
+            <form>
+        <div class="butt">
+            <input type="button" value="7"onclick='myad(7)'>
+            <input type="button" value="8"onclick='myad(8)'>
+            <input type="button" value="9"onclick='myad(9)'>
+            <input type="button" value="4"onclick='myad(4)'><br>
+            <input type="button" value="5"onclick='myad(5)'>
+            <input type="button" value="6"onclick='myad(6)'>
+            <input type="button" value="3"onclick='myad(3)'>
+            <input type="button" value="1"onclick='myad(1)'><br>
+            <input type="button" value="2"onclick='myad(2)'>
+            <input type="button" value="0"onclick='myad(0)'>
+            <input type="button" value="/"onclick='myad("/")'>
+            <input type="button" value="."onclick='myad(".")'><br>
+            <input type="button" value="*"onclick='myad("*")'>
+            <input type="button" value="-"onclick='myad("-")'>
+            <input type="reset" value="ce" onclick="cancel(' ')">
+            <input type="button" value="+"onclick='myad("+")'><br>
+            <input type="button" value="="onclick='equal()'>
+            <input type="button" value="%"onclick='per("%")'>
+            <input type="button" value="c"onclick='cmyad()'>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
